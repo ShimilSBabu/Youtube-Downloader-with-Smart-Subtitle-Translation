@@ -1,2 +1,9 @@
 # Youtube-Downloader-with-Smart-Subtitle-Translation
-When the video URL is given as input, this program downloads the video, searches for presence of hard/soft subtitles, and generates a .srt file containing the subtitles translated into the user's preferred language.
+When the video URL is given as input, this program;
+
+  1) Downloads the video.
+  2) Searches for presence of hard/soft subtitles.
+  3) Reads the subtitles from images for hard-encoded subtitles.
+  4) Translates the subtitles into the user's preferred language.
+  5) Generates .srt file containing the translated subtitles and timestamps.
+  6) Downloads the subtitle file with the same name as the video, so that the subtitle automatically loads when the video is played.
